@@ -26,3 +26,5 @@ alias wanip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias wget='wget -c '
 alias remount='sudo mount /dev/sdc1 /media/Buster ; sudo mount /dev/sda1 /media/LSM'
 alias search='set -f;search';search() { find . ${2:+-name "$2"} -type f -print0 | xargs -0 grep --color=auto "$1"; }
+alias killmux='tmux kill-session'
+alias gitUpload='git add . && git commit -a && git push -u origin --all'

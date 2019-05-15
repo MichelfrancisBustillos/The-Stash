@@ -28,6 +28,6 @@ alias remount='sudo mount /dev/sdc1 /media/Buster ; sudo mount /dev/sda1 /media/
 alias search='set -f;search';search() { find . ${2:+-name "$2"} -type f -print0 | xargs -0 grep --color=auto "$1"; }
 alias killmux='tmux kill-session'
 alias gitShove='git add . && git commit -a && git push -u origin --all'
-alias gitYank='git fetch --prune'
+alias gitYank='git pull'
 alias updateAlias='cp ~/Repositories/Dotfiles/bash_aliases ~/.bash_aliases && . ~/.bash_aliases && echo "Aliases Updated!!"'
 

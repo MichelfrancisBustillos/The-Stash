@@ -30,4 +30,4 @@ alias killmux='tmux kill-session'
 alias gitShove='git add . && git commit -a && git push -u origin --all'
 alias gitYank='git pull'
 alias updateAlias='cp ~/Repositories/Dotfiles/bash_aliases ~/.bash_aliases && . ~/.bash_aliases && echo "Aliases Updated!!"'
-
+alias startuTorrent='utserver -settingspath /opt/utorrent-server-alpha-v3_3/'

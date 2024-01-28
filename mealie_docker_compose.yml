@@ -28,7 +28,7 @@ services:
       - SMTP_AUTH_STRATEGY=TLS
       - SMTP_USER=michelfrancisb@gmail.com
       - SMTP_PASSWORD=  #REPLACE WITH SMTP APP PASSWORD
-      - THEME_DARK_PRIMARY=#0000ff
+      - THEME_DARK_PRIMARY=#004ef
     restart: always
 
 volumes:

@@ -1,0 +1,12 @@
+[Unit]
+Description=Calibre Server
+After=network.target
+
+[Service]
+Type=simple
+User=michel
+Group=michel
+ExecStart=/opt/calibre/calibre-server /mnt/Hoard/Library/Fiction /mnt/Hoard/Library/Non-Fiction /mnt/Hoard/Library/WitchcraftAndWicca /mnt/Hoard/Library/DungeonsAndDragons /mnt/Hoard/Library/YoungAdultFiction >
+
+[Install]
+WantedBy=multi-user.target

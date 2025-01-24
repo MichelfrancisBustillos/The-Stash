@@ -6,7 +6,7 @@ After=network.target mnt-Hoard.mount
 Type=simple
 User=michel
 Group=michel
-ExecStart=/opt/calibre/calibre-server /mnt/Hoard/Library/Fiction /mnt/Hoard/Library/Non-Fiction /mnt/Hoard/Library/WitchcraftAndWicca /mnt/Hoard/Library/DungeonsAndDragons /mnt/Hoard/Library/YoungAdultFiction 
+ExecStart=/opt/calibre/calibre-server /mnt/Hoard/Library/Adult /mnt/Hoard/Library/Fiction /mnt/Hoard/Library/Non-Fiction /mnt/Hoard/Library/WitchcraftAndWicca /mnt/Hoard/Library/DungeonsAndDragons /mnt/Hoard/Library/YoungAdultFiction /mnt/Hoard/Library/Childrens /mnt/Hoard/Library/Comics --enable-local-write --log=/mnt/Hoard/calibre_logs/calibre_log --access-log=/mnt/Hoard/calibre_logs/calibre_access_logs
 
 [Install]
 WantedBy=multi-user.target
